@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Bb4k Fundraiser</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body ng-controller="mainController">
+  <!-- <p>Donated:</p>
+  <input type="text" placeholder="Donated" ng-model="Donated"><br> -->
+  <button type="button" class='' name="button" ng-click='Donate()'>Donate</button>
+  <p>Goal:</p>
+  <input type="text" placeholder="Goal" ng-model="Goal"><br>
+  <button type="button" class='' name="button" ng-click='Update()'>Donate</button>
+  <div class = "parent">
+    <div class = "container, color"><img class="photo" src="Photos/BB4k123.svg" alt="Skeleton"></div>
+    <div class = "container, grey"><img class="photo" src="Photos/BB4k1234.svg" alt="Skeleton"></div>
+    <div ng-style='progress'></div>
+  </div>
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js">
+    </script>
+    <script type="text/javascript" src='app.js'></script>
+    <script type="text/javascript" src='mainController.js'></script>
+  </body>
+</html>
