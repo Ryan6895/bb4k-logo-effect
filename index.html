@@ -6,17 +6,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body ng-controller="mainController">
-  <!-- <p>Donated:</p>
-  <input type="text" placeholder="Donated" ng-model="Donated"><br> -->
-  <button type="button" class='' name="button" ng-click='Donate()'>Donate</button>
-  <p>Goal:</p>
-  <input type="text" placeholder="Goal" ng-model="Goal"><br>
-  <button type="button" class='' name="button" ng-click='Update()'>Donate</button>
-  <div class = "parent">
-    <div class = "container, color"><img class="photo" src="Photos/BB4k123.svg" alt="Skeleton"></div>
-    <div class = "container, grey"><img class="photo" src="Photos/BB4k1234.svg" alt="Skeleton"></div>
+
+<div class = "parent">
+    <div class = "color"><img class="photo" src="Photos/BB4k123.svg" alt="Skeleton"></div>
+    <div class = "grey"><img class="photo" src="Photos/BB4k1234.svg" alt="Skeleton"></div>
     <div ng-style='progress'></div>
-  </div>
+</div>
+
+  <p>Goal:</p>
+  <p>{{Goal | currency}}</p>
+  <p>Donated:</p>
+  <p>{{Donated | currency}}</p>
+  <button type="button" class='' name="button" ng-click='Donate()'>Donate</button>
+
     <script type="text/javascript"
       src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js">
     </script>

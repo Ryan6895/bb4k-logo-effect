@@ -2,7 +2,7 @@ angular.module('myApp')
 .controller('mainController', function($scope){
 
 $scope.Donated = 0;
-$scope.Goal = 100;
+$scope.Goal = 1500;
 
 $scope.Donate = function () {
 

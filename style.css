@@ -1,21 +1,24 @@
 .photo {
-zoom: 50%
+  width: 100%;
+  height: 100%;
 }
-.container {
-  height: 1000px;
-  width: 1200px;
-  position: absolute;
-}
+
 .parent {
   width: 575px;
   height:478px;
-  
+  margin-top: 8%;
+  margin-left: 8%;
+  background-color: red;
 }
 .grey {
+  width: 100%;
+  height: 100%;
   position: absolute;
   z-index: 10;
 }
 .color {
+  width: 100%;
+  height: 100%;
   position: absolute;
   z-index: -1;
 }
